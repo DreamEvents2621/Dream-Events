@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Dream Events</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="container">
+        <h2>Welcome to Our Dream Events Platform</h2>
+        <p>We organize amazing events that you'll love. Check out our upcoming events below!</p>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section">
+      <div class="container">
+        <h2>Upcoming Events</h2>
+        <div id="event-list">
+          <!-- Events will be dynamically added here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your Name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Your Email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Dream Events. All rights reserved.</p>
+    </div>
+ 
+        <p>&copy; 2024 Dream Events. All rights reserved. 
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </p>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+       
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
